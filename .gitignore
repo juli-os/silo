@@ -1,0 +1,7 @@
+node_modules/
+*.db
+*.db-journal
+dist/
+site/
+.DS_Store
+.venv-docs/
