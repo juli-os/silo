@@ -6,7 +6,7 @@
 
 # Interface: S3Opts
 
-Defined in: store.ts:78
+Defined in: [store.ts:78](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L78)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: store.ts:78
 
 > `readonly` **accessKeyId**: `string`
 
-Defined in: store.ts:82
+Defined in: [store.ts:82](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L82)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: store.ts:82
 
 > `readonly` **bucket**: `string`
 
-Defined in: store.ts:81
+Defined in: [store.ts:81](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L81)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: store.ts:81
 
 > `readonly` **endpoint**: `string`
 
-Defined in: store.ts:79
+Defined in: [store.ts:79](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L79)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: store.ts:79
 
 > `readonly` `optional` **now?**: () => `Date`
 
-Defined in: store.ts:90
+Defined in: [store.ts:90](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L90)
 
 测试注入点:预签时钟(缺省系统时钟)——签名已知向量(known-answer)测试的前提。
 
@@ -52,7 +52,7 @@ Defined in: store.ts:90
 
 > `readonly` `optional` **pathStyle?**: `boolean`
 
-Defined in: store.ts:84
+Defined in: [store.ts:84](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L84)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: store.ts:84
 
 > `readonly` `optional` **publicHost?**: `string`
 
-Defined in: store.ts:88
+Defined in: [store.ts:88](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L88)
 
 公网分享域(如 share.juliasia.cn,CNAME 指向桶):仅对 OSS V1 出链改写——
 V1 签名只覆盖资源路径不覆盖域名,改写后链仍有效;SigV4 签 host,改写即废,
@@ -72,7 +72,7 @@ V1 签名只覆盖资源路径不覆盖域名,改写后链仍有效;SigV4 签 ho
 
 > `readonly` **region**: `string`
 
-Defined in: store.ts:80
+Defined in: [store.ts:80](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L80)
 
 ***
 
@@ -80,4 +80,4 @@ Defined in: store.ts:80
 
 > `readonly` **secretAccessKey**: `string`
 
-Defined in: store.ts:83
+Defined in: [store.ts:83](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L83)

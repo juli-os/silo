@@ -8,7 +8,7 @@
 
 > **createDualBackend**(`primary`, `remote`): [`ArtifactBackend`](../interfaces/ArtifactBackend.md)
 
-Defined in: store.ts:255
+Defined in: [store.ts:255](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L255)
 
 ## Parameters
 

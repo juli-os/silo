@@ -6,7 +6,7 @@
 
 # Interface: ArtifactBackend
 
-Defined in: store.ts:10
+Defined in: [store.ts:10](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L10)
 
 ## Methods
 
@@ -14,7 +14,7 @@ Defined in: store.ts:10
 
 > **delete**(`key`): `Promise`\<`Result`\<`void`, `Error`\>\>
 
-Defined in: store.ts:13
+Defined in: [store.ts:13](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L13)
 
 #### Parameters
 
@@ -32,7 +32,7 @@ Defined in: store.ts:13
 
 > **get**(`key`): `Promise`\<`Result`\<`Buffer`\<`ArrayBufferLike`\>, `Error`\>\>
 
-Defined in: store.ts:12
+Defined in: [store.ts:12](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L12)
 
 #### Parameters
 
@@ -50,7 +50,7 @@ Defined in: store.ts:12
 
 > **list**(`prefix`): `Promise`\<readonly `string`[]\>
 
-Defined in: store.ts:14
+Defined in: [store.ts:14](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L14)
 
 #### Parameters
 
@@ -68,7 +68,7 @@ Defined in: store.ts:14
 
 > **put**(`key`, `bytes`): `Promise`\<`Result`\<`void`, `Error`\>\>
 
-Defined in: store.ts:11
+Defined in: [store.ts:11](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L11)
 
 #### Parameters
 
@@ -90,7 +90,7 @@ Defined in: store.ts:11
 
 > **url**(`key`, `ttlSec?`): `Promise`\<`Result`\<`string`, `Error`\>\>
 
-Defined in: store.ts:16
+Defined in: [store.ts:16](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L16)
 
 生成可访问 URL：disk = 本地 API 路径；S3 = presigned GET。
 

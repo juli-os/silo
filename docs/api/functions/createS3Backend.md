@@ -8,7 +8,7 @@
 
 > **createS3Backend**(`opts`): [`ArtifactBackend`](../interfaces/ArtifactBackend.md)
 
-Defined in: store.ts:180
+Defined in: [store.ts:180](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L180)
 
 ## Parameters
 

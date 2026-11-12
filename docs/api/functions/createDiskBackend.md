@@ -8,7 +8,7 @@
 
 > **createDiskBackend**(`rootDir`): [`ArtifactBackend`](../interfaces/ArtifactBackend.md)
 
-Defined in: store.ts:32
+Defined in: [store.ts:32](https://github.com/juli-os/silo/blob/main/src/silo/store.ts#L32)
 
 ## Parameters
 
